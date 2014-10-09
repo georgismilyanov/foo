@@ -9,4 +9,10 @@ public class BarTest {
 	{
 		new Bar();
 	}
+	
+	@Test
+	public void failTestTest()
+	{
+		assert 1 == 0;
+	}
 }
